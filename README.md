@@ -1,6 +1,5 @@
 ## To run:
 
-cd receipt-api
 docker compose up dev --build
 
 ## With server running:
