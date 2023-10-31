@@ -1,6 +1,6 @@
 ## To run:
 
-docker compose up dev --build
+docker-compose up dev --build
 
 ## With server running:
 
@@ -8,4 +8,4 @@ docker compose up dev --build
 curl -X POST -H "Content-Type: application/json" -d @./\[test-json-file\].json http://localhost:3000/receipts/process
 
 ### Test getting points
-curl -H 'Content-Type: application/json' http://localhost:3000/receipts/\[id-returned-from-processing\]/points
+curl -H 'Content-Type: application/json' http://localhost:3000/receipts/[id-returned-from-processing]/points
